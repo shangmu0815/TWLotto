@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout android:id="@+id/option"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FF444444">
+        <TextView android:id="@+id/lotto_type_title"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dip"
+            android:layout_marginLeft="3dip"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/lotto_type_title" />
+        <Spinner android:id="@+id/spinnerLotto_"
+            style="@style/AppSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="6dip"
+            android:layout_marginLeft="3dip"
+            android:drawSelectorOnTop="true"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF444444" >
+        <TextView android:id="@+id/lotto_drawid_title"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dip"
+            android:layout_marginLeft="10dip"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/lotto_drawid_title" />
+        <EditText android:id="@+id/search_draw_no"
+            style="@style/AppEditBox"
+            android:layout_width="118dp" 
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" 
+            android:inputType="number" 
+            android:maxLength="9"
+            android:layout_marginTop="6dip"
+            android:layout_marginLeft="23dp"/>
+        <Button android:id="@+id/search_draw_no_add"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text=" + " 
+            android:layout_marginTop="20dp" 
+            android:layout_gravity="right" 
+            android:textSize="14sp" 
+            android:textStyle="bold"
+            android:background="@drawable/btn_app_default_button"/>
+        <Button android:id="@+id/search_draw_no_minus"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text=" - " 
+            android:layout_marginTop="20dp" 
+            android:layout_gravity="right" 
+            android:textSize="14sp" 
+            android:textStyle="bold"
+            android:background="@drawable/btn_app_default_button"/>
+    </LinearLayout>
+    
+    <TextView android:id="@+id/searching"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content"
+           android:textColor="#FFFFFF"
+           android:layout_gravity="left" 
+           android:gravity="center_vertical|center_horizontal"
+           android:text="@string/loading" />
+           
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/lotto_info"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:scrollbars="horizontal"/>
+        </ScrollView>
+    </RelativeLayout>
+    
+    <LinearLayout android:id="@+id/option"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dip">
+        <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1" />
+            <Button android:id="@+id/lotto_start_matching"
+                style="@style/AppButton"
+                android:layout_weight="1"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/draw_match"
+                android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

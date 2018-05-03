@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+        <ProgressBar android:id="@+id/progress_loading"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            style="?android:attr/progressBarStyleSmall"
+            android:text="@string/info_updateing" 
+            android:layout_toRightOf="@+id/progress_loading"/>
+    </RelativeLayout>
+    <Spinner android:id="@+id/spinnerInvoice"
+             style="@style/AppSpinner"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:drawSelectorOnTop="true"/>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="20dp" >
+        <Button android:id="@+id/invoice_matching"
+                style="@style/AppButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/invoice_draw_match"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dip"/>
+        <TextView android:id="@+id/invoice_title"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dip"
+                android:textSize="18sp"
+                android:text="請輸入發票號碼後3碼:" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip">
+        <TextView android:id="@+id/invoice_custom_ime_no"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" 
+            android:textSize="26sp"
+            android:textStyle="bold" android:textColor="#F35" />
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:duplicateParentState="true">
+        <ScrollView android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/invoice_number_info"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:orientation="vertical" android:scrollbars="horizontal"/>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+    </LinearLayout>
+</LinearLayout>

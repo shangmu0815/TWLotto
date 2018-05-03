@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content" android:layout_height="wrap_content"> -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal"
+    android:baselineAligned="false" android:paddingLeft="11dip"
+    android:paddingTop="4dip" android:paddingBottom="8dip">
+
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/weili_lotto_date"
+                style="@style/LottoDrawText"/>
+            <TextView android:id="@+id/weili_lotto_draw_number"
+                style="@style/LottoDrawText"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/weili_lotto_number_1"
+                style="@style/LottoYelloBall"/>
+
+            <TextView android:id="@+id/weili_lotto_number_2"
+                style="@style/LottoYelloBall"/>
+
+            <TextView android:id="@+id/weili_lotto_number_3"
+                style="@style/LottoYelloBall"/>
+                
+            <TextView android:id="@+id/weili_lotto_number_4"
+                style="@style/LottoYelloBall"/>
+
+            <TextView android:id="@+id/weili_lotto_number_5"
+                style="@style/LottoYelloBall"/>
+
+            <TextView android:id="@+id/weili_lotto_number_6"
+                style="@style/LottoYelloBall"/>
+
+            <TextView android:id="@+id/weili_lotto_number_special"
+                style="@style/LottoRedBall"/>
+                
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

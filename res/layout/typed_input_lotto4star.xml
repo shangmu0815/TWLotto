@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/contents"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:scrollbars="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/lotto_play" android:text="請選擇玩法"
+                        android:textSize="20sp" 
+                        android:singleLine="true" android:ellipsize="end"
+                        android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Spinner android:id="@+id/spinnerLotto4star"
+                        style="@style/AppSpinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_weight="1" android:layout_gravity="center">
+                    <LinearLayout 
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_weight="1">
+                        <TextView android:id="@+id/lotto4star_number1_0" 
+                            android:text="0"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_1"
+                            android:text="1"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_2"
+                            android:text="2"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_3"
+                            android:text="3"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_4"
+                            android:text="4"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_5"
+                            android:text="5"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_6"
+                            android:text="6"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_7"
+                            android:text="7"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_8"
+                            android:text="8"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number1_9"
+                            android:text="9"
+                            style="@style/LottoYelloBallSelectMid"/>
+                    </LinearLayout>
+                    <LinearLayout 
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_weight="1">
+                        <TextView android:id="@+id/lotto4star_number2_0" 
+                            android:text="0"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_1"
+                            android:text="1"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_2"
+                            android:text="2"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_3"
+                            android:text="3"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_4"
+                            android:text="4"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_5"
+                            android:text="5"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_6"
+                            android:text="6"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_7"
+                            android:text="7"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_8"
+                            android:text="8"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number2_9"
+                            android:text="9"
+                            style="@style/LottoYelloBallSelectMid"/>
+                    </LinearLayout>
+                    <LinearLayout 
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_weight="1">
+                        <TextView android:id="@+id/lotto4star_number3_0" 
+                            android:text="0"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_1"
+                            android:text="1"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_2"
+                            android:text="2"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_3"
+                            android:text="3"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_4"
+                            android:text="4"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_5"
+                            android:text="5"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_6"
+                            android:text="6"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_7"
+                            android:text="7"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_8"
+                            android:text="8"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number3_9"
+                            android:text="9"
+                            style="@style/LottoYelloBallSelectMid"/>
+                    </LinearLayout>
+                    <LinearLayout 
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:layout_weight="1">
+                        <TextView android:id="@+id/lotto4star_number4_0" 
+                            android:text="0"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_1"
+                            android:text="1"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_2"
+                            android:text="2"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_3"
+                            android:text="3"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_4"
+                            android:text="4"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_5"
+                            android:text="5"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_6"
+                            android:text="6"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_7"
+                            android:text="7"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_8"
+                            android:text="8"
+                            style="@style/LottoYelloBallSelectMid"/>
+                        <TextView android:id="@+id/lotto4star_number4_9"
+                            android:text="9"
+                            style="@style/LottoYelloBallSelectMid"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal" 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                        <TextView android:id="@+id/sec1_ball_selected" android:text="0/4"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom" android:textColor="#FF9900"
+                            android:layout_marginRight="12dip"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dip">
+        <Button android:id="@+id/btnBack"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/match_restart"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button android:id="@+id/btnOk"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"            
+            android:text="@string/match_start"/>
+    </LinearLayout>
+</LinearLayout>

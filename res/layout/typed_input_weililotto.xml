@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/contents"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:scrollbars="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/lotto_play" android:text="A-1請選六個號碼"
+                        android:textSize="20sp" 
+                        android:singleLine="true" android:ellipsize="end"
+                        android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a1number_1"
+                        android:text="01"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_2"
+                        android:text="02"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_3" 
+                        android:text="03"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_4" 
+                        android:text="04"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_5" 
+                        android:text="05"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_6" 
+                        android:text="06"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_7" 
+                        android:text="07"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a1number_8"
+                        android:text="08"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_9"
+                        android:text="09"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_10"
+                        android:text="10"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_11"
+                        android:text="11"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_12"
+                        android:text="12"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_13"
+                        android:text="13"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_14"
+                        android:text="14"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a1number_15"
+                        android:text="15"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_16"
+                        android:text="16"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_17"
+                        android:text="17"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_18"
+                        android:text="18"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_19"
+                        android:text="19"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_20"
+                        android:text="20"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_21"
+                        android:text="21"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a1number_22"
+                        android:text="22"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_23"
+                        android:text="23"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_24"
+                        android:text="24"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_25"
+                        android:text="25"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_26"
+                        android:text="26"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_27"
+                        android:text="27"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_28"
+                        android:text="28"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a1number_29"
+                        android:text="29"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_30"
+                        android:text="30"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_31"
+                        android:text="31"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_32"
+                        android:text="32"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_33"
+                        android:text="33"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_34"
+                        android:text="34"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_35"
+                        android:text="35"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+        
+                    <TextView android:id="@+id/weili_lotto_a1number_36"
+                        android:text="36"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_37"
+                        android:text="37"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a1number_38"
+                        android:text="38"
+                        style="@style/LottoYelloBallSelectLarge"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal" 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                        <TextView android:id="@+id/sec1_ball_selected" android:text="0/6"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom" android:textColor="#FF9900"
+                            android:layout_marginRight="12dip"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_date" android:text="A-2請選一個號碼"
+                        android:textSize="20sp" 
+                        android:singleLine="true" android:ellipsize="end"
+                        android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a2number_1"
+                        android:text="01"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_2"
+                        android:text="02"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_3"
+                        android:text="03"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_4"
+                        android:text="04"
+                        style="@style/LottoRedBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout 
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/weili_lotto_a2number_5"
+                        android:text="05"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_6"
+                        android:text="06"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_7"
+                        android:text="07"
+                        style="@style/LottoRedBallSelectLarge"/>
+                    <TextView android:id="@+id/weili_lotto_a2number_8"
+                        android:text="08"
+                        style="@style/LottoRedBallSelectLarge"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal" 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip">
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                        <TextView android:id="@+id/sec2_ball_selected" android:text="0/1"
+                            android:textSize="14sp"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom" android:textColor="#FF9900"
+                            android:layout_marginRight="12dip"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dip">
+       <Button android:id="@+id/btnBack"
+           android:background="@drawable/btn_app_default_button"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="@string/match_restart"/>
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1" />
+       <Button android:id="@+id/btnOk"
+           android:background="@drawable/btn_app_default_button"
+           android:layout_width="fill_parent" 
+           android:layout_height="wrap_content"
+           android:layout_weight="1"           
+           android:text="@string/match_start"/>
+    </LinearLayout>
+</LinearLayout>

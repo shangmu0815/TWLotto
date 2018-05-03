@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/weili_lotto_date" android:text="請選六個號碼"
+                android:textSize="20sp" 
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_1"
+                android:text="01"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_2"
+                android:text="02"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_3"
+                android:text="03"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_4"
+                android:text="04"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_5"
+                android:text="05"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_6"
+                android:text="06"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_7"
+                android:text="07"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_8"
+                android:text="08"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_9"
+                android:text="09"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_10"
+                android:text="10"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_11"
+                android:text="11"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_12"
+                android:text="12"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_13"
+                android:text="13"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_14"
+                android:text="14"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_15"
+                android:text="15"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_16"
+                android:text="16"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_17"
+                android:text="17"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_18"
+                android:text="18"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_19"
+                android:text="19"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_20"
+                android:text="20"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_21"
+                android:text="21"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_22"
+                android:text="22"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_23"
+                android:text="23"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_24"
+                android:text="24"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_25"
+                android:text="25"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_26"
+                android:text="26"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_27"
+                android:text="27"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_28"
+                android:text="28"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_29"
+                android:text="29"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_30"
+                android:text="30"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_31"
+                android:text="31"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_32"
+                android:text="32"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_33"
+                android:text="33"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_34"
+                android:text="34"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_35"
+                android:text="35"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_36"
+                android:text="36"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_37"
+                android:text="37"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_38"
+                android:text="38"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_39"
+                android:text="39"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_40"
+                android:text="40"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_41"
+                android:text="41"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_42"
+                android:text="42"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_gravity="center">
+            <TextView android:id="@+id/big_lotto_number_43"
+                android:text="43"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_44"
+                android:text="44"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_45"
+                android:text="45"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_46"
+                android:text="46"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_47"
+                android:text="47"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_48"
+                android:text="48"
+                style="@style/LottoYelloBallSelectLarge"/>
+            <TextView android:id="@+id/big_lotto_number_49"
+                android:text="49"
+                style="@style/LottoYelloBallSelectLarge"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+                <TextView android:id="@+id/sec1_ball_selected" android:text="0/6"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom" android:textColor="#FF9900"
+                    android:layout_marginRight="12dip"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:paddingBottom="5dip">
+        <Button android:id="@+id/btnBack"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/match_restart"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button android:id="@+id/btnOk"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/match_start"/>
+    </LinearLayout>
+</LinearLayout>

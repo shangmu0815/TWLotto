@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:duplicateParentState="true">
+    <ScrollView
+	    	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+    <LinearLayout 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/lotto_play" android:text="請選五個號碼"
+                android:textSize="20sp" android:layout_below="@+id/lotto_number_5"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_1"
+	                android:text="@string/number_01"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_2"
+	                android:text="@string/number_02"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_3"
+	                android:text="@string/number_03"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_4"
+	                android:text="@string/number_04"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_5"
+	                android:text="@string/number_05"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_6"
+	                android:text="@string/number_06"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_7"
+	                android:text="@string/number_07"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_8"
+	                android:text="@string/number_08"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_9"
+	                android:text="@string/number_09"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_10"
+	                android:text="@string/number_10"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" 
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_11"
+	                android:text="@string/number_11"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_12"
+	                android:text="@string/number_12"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_13"
+	                android:text="@string/number_13"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_14"
+	                android:text="@string/number_14"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_15"
+	                android:text="@string/number_15"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_16"
+	                android:text="@string/number_16"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_17"
+	                android:text="@string/number_17"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_18"
+	                android:text="@string/number_18"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_19"
+	                android:text="@string/number_19"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_20"
+	                android:text="@string/number_20"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_21"
+	                android:text="@string/number_21"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_22"
+	                android:text="@string/number_22"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_23"
+	                android:text="@string/number_23"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_24"
+	                android:text="@string/number_24"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_25"
+	                android:text="@string/number_25"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_26"
+	                android:text="@string/number_26"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_27"
+	                android:text="@string/number_27"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_28"
+	                android:text="@string/number_28"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_29"
+	                android:text="@string/number_29"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_30"
+	                android:text="@string/number_30"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_31"
+	                android:text="@string/number_31"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_32"
+	                android:text="@string/number_32"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_33"
+	                android:text="@string/number_33"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_34"
+	                android:text="@string/number_34"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content"
+                        android:gravity="center" 
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_35"
+	                android:text="@string/number_35"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>    
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"             
+            android:orientation="horizontal">
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_36"
+	                android:text="@string/number_36"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_37"
+	                android:text="@string/number_37"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_38"
+	                android:text="@string/number_38"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 
+	                android:id="@+id/lotto539_number_39"
+	                android:text="@string/number_39"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>  
+            
+            <LinearLayout 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:gravity="center"
+                        android:layout_weight="1"                       
+                   		android:orientation="horizontal">
+	            <TextView 	                
+	                android:text="@string/number_40"
+	                android:visibility="invisible"
+	                style="@style/LottoYelloBallSelectLarge_v2"/>
+            </LinearLayout>
+            
+        </LinearLayout>        
+        
+        <LinearLayout
+            android:orientation="horizontal" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+                <TextView android:id="@+id/sec1_ball_selected" android:text="0/5"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom" android:textColor="#FF9900"
+                    android:layout_marginRight="12dip"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dip">
+        <Button android:id="@+id/btnBack"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/match_restart"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button android:id="@+id/btnOk"
+            android:background="@drawable/btn_app_default_button"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"            
+            android:text="@string/match_start"/>
+    </LinearLayout>
+</LinearLayout>

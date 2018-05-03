@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ * Copyright (C) 2008, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+   <LinearLayout android:id="@+id/ime_line1"
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton android:id="@+id/custom_ime_digit7"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_seven_icon"
+           android:layout_toLeftOf="@+id/custom_ime_digit8"/>
+       <ImageButton android:id="@+id/custom_ime_digit8"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_eight_icon"
+           android:layout_toLeftOf="@+id/custom_ime_digit9"/>/>
+       <ImageButton android:id="@+id/custom_ime_digit9"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_nine_icon"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ime_line2"
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton android:id="@+id/custom_ime_digit4"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_four_icon"/>
+       <ImageButton android:id="@+id/custom_ime_digit5"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_five_icon"/>
+       <ImageButton android:id="@+id/custom_ime_digit6"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_six_icon"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ime_line3"
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton android:id="@+id/custom_ime_digit1"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_one_icon"/>
+       <ImageButton android:id="@+id/custom_ime_digit2"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_two_icon"/>
+       <ImageButton android:id="@+id/custom_ime_digit3"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_three_icon"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ime_line4"
+       android:layout_width="match_parent" android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageButton
+           android:id="@+id/custom_ime_none"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_blank_icon"/>
+       <ImageButton android:id="@+id/custom_ime_digit0"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_zero_icon"/>
+       <ImageButton android:id="@+id/custom_ime_back"
+           android:layout_width="fill_parent" 
+           android:layout_height="63dip"
+           android:layout_weight="1"
+           android:src="@drawable/digits_back_icon"/>
+    </LinearLayout>
+</LinearLayout>

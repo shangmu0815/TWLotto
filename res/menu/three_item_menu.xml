@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/three_menu_refresh"
+          android:icon="@drawable/ic_menu_refresh"
+          android:title="@string/invoice_menu_refresh" />
+    
+    <item android:id="@+id/three_menu_preferences"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/welcomemenu_setting" />
+    
+    <item android:id="@+id/three_menu_about"
+          android:icon="@drawable/ic_menu_about"
+          android:title="@string/welcomemenu_about" />
+
+</menu>

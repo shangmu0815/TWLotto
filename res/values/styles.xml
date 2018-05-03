@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="TWLottoTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="LottoDrawText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="LottoYelloBall">
+        <item name="android:background">@drawable/lotto_ball</item>
+        <item name="android:layout_width">35dip</item>
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    
+    <style name="LottoRedBall">
+        <item name="android:background">@drawable/lotto_ball_red</item>
+        <item name="android:layout_width">35dip</item>
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_marginLeft">20dip</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    
+    <style name="LottoYelloBallSelectMid">
+        <item name="android:background">@drawable/lotto_ball</item>
+        <item name="android:layout_width">30dip</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    
+    <style name="LottoYelloBallSelectLarge">
+        <item name="android:background">@drawable/lotto_ball</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    
+    <style name="LottoYelloBallSelectLarge_v2">
+        <item name="android:background">@drawable/lotto_ball</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>        
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+        
+    <style name="LottoRedBallSelectLarge">
+        <item name="android:background">@drawable/lotto_ball_red</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    
+    <style name="LottoRedBallSelectLarge_v2">
+        <item name="android:background">@drawable/lotto_ball_red</item>
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    
+    <style name="AppButton" parent="@android:style/Widget.ImageButton">
+    	<item name="android:background">@drawable/btn_app_default_button</item>
+    	<item name="android:textColor">@android:color/black</item>
+	</style>
+	
+	<style name="AppSpinner" parent="@android:style/Widget.Spinner">
+        <item name="android:background">@drawable/spinner_app_default</item>
+        <item name="android:textColor">@android:color/black</item>
+	</style>
+	
+	<style name="AppSpinnerTextAppearance" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <style name="AppEditBox">
+        <item name="android:background">@drawable/editbox_app_default</item>
+        <item name="android:textColor">@android:color/black</item>
+        
+    </style>
+    
+    <style name="LottoDetailInfoText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item> 
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- <ListPreference
+      android:key="twlotto_setting_refresh"
+      android:title="Refresh types"
+      android:entries="@array/twlotto_setting_refresh_entries"
+      android:entryValues="@array/twlotto_setting_refresh_values"
+      android:dialogTitle="Refresh types" />-->
+
+  <CheckBoxPreference
+       android:key="twlotto_setting_refresh"
+       android:title="@+string/setting_auto_refresh"
+       android:summary="@+string/setting_auto_refresh_notes"
+       android:defaultValue="true"/>
+  
+  <CheckBoxPreference
+       android:key="twlotto_setting_vibrate"
+       android:title="@+string/setting_touch_vibrate"
+       android:summary="@+string/setting_touch_vibrate_notes"
+       android:defaultValue="true"/>
+  
+  <!-- TWLotto version number -->
+  <Preference
+      android:key="filesharing_version"
+      style="?android:preferenceInformationStyle"
+      android:title="@+string/twlotto_version" 
+      android:summary="@string/app_version"/>
+</PreferenceScreen>

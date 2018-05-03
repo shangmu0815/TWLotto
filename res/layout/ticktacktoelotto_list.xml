@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content" android:layout_height="wrap_content"> -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_info" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal"
+    android:baselineAligned="false" android:paddingLeft="11dip"
+    android:paddingTop="4dip" android:paddingBottom="8dip">
+
+    <LinearLayout android:id="@+id/weather_info"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/ttt_lotto_date"
+                style="@style/LottoDrawText"/>
+            <TextView android:id="@+id/ttt_lotto_draw_number"
+                style="@style/LottoDrawText"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="vertical">
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:id="@+id/ttt_lotto_number_11"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_12"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_13"
+                    style="@style/LottoYelloBall"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:id="@+id/ttt_lotto_number_21"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_22"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_23"
+                    style="@style/LottoYelloBall"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:id="@+id/ttt_lotto_number_31"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_32"
+                    style="@style/LottoYelloBall"/>
+
+                <TextView android:id="@+id/ttt_lotto_number_33"
+                    style="@style/LottoYelloBall"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

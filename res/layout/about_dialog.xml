@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip" android:layout_height="340dip"
+    android:orientation="vertical" android:background="#FF404040">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+            <TextView android:id="@+id/about_dialog_content"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="3dip"
+                android:autoLink="web"
+                android:scrollbars="horizontal"/>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:gravity="bottom" 
+        android:paddingBottom="5dip">
+<!--          
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+-->
+        <Button android:id="@+id/about_ok"
+            style="@style/AppButton"
+            android:layout_width="0dip" 
+            android:layout_height="wrap_content"
+            android:text="@string/string_confirm"
+            android:layout_weight="1" />
+<!--  
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+-->
+     </LinearLayout>
+</LinearLayout>   

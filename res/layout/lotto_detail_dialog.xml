@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip" android:layout_height="280dip"
+    android:orientation="vertical" android:background="#FF404040">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView 
+            android:text="@string/first_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_first"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView 
+            android:text="@string/second_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_second"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/third_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_third"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/fourth_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_fourth"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/fifth_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_fifth"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/sixth_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_sixth"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/seventh_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_seventh"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/eighth_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_eighth"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/ninth_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_ninth"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/general_prize"
+            style="@style/LottoDetailInfoText"/>
+            
+        <TextView android:id="@+id/lotto_detail_general"
+            style="@style/LottoDetailInfoText"/>
+
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:gravity="bottom" 
+        android:paddingBottom="5dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button android:id="@+id/lotto_detail_ok"
+            style="@style/AppButton"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:text="@string/string_confirm"
+            android:layout_weight="1" />
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+     </LinearLayout>
+</LinearLayout> 

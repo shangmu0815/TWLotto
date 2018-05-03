@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Spinner android:id="@+id/spinnerLotto"
+        style="@style/AppSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+    />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"> 
+        <EditText android:id="@+id/draw_no"
+            style="@style/AppEditBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"            
+            android:text=""
+            android:inputType="numberDecimal" />       
+        <TextView 
+            android:textSize="22px"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/draw_no"
+            android:layout_toRightOf="@id/draw_no"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <Button android:id="@+id/btn1"
+        style="@style/AppButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="@string/match_start"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+    />
+</LinearLayout>

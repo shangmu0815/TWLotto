@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!-- Used in View/Spinner1.java -->
+    <!--
+   <string-array name="lottoTypes">
+       <item>SuperLotto638</item>
+       <item>Lotto649</item>
+       <item>Dailycash</item>
+       <item>TTT</item>
+       <item>3D</item>
+       <item>4D</item>
+       <item>38m6</item>
+       <item>49m6</item>
+       <item>39m5</item>
+       <item>Lotto638</item>
+   </string-array>
+     -->
+   <string-array name="lottoTypes">
+       <item>威力彩</item>
+       <item>6/49大樂透</item>
+       <item>今彩539</item>
+       <item>樂線九宮格</item>
+       <item>3星彩</item>
+       <item>4星彩</item>
+       <item>38樂合彩</item>
+       <item>49樂合彩</item>
+       <item>39樂合彩</item>
+   </string-array>
+   <string-array name="lotto3StarTypes">
+       <item>正彩</item>
+       <item>組彩</item>
+       <item>對彩</item>
+   </string-array>
+   <string-array name="lotto4StarTypes">
+       <item>正彩</item>
+       <item>組彩</item>
+   </string-array>
+   <string-array name="lotto38Types">
+       <item>二合</item>
+       <item>三合</item>
+       <item>四合</item>
+       <item>五合</item>
+   </string-array>
+   <string-array name="lotto49Types">
+       <item>二合</item>
+       <item>三合</item>
+       <item>四合</item>
+   </string-array>
+   <string-array name="lotto39Types">
+       <item>二合</item>
+       <item>三合</item>
+       <item>四合</item>
+   </string-array>
+   <string-array name="twlotto_setting_refresh_entries" translatable="false">
+        <item>Manually update</item>
+        <item>Auto refresh</item>
+    </string-array>
+
+    <string-array name="twlotto_setting_refresh_values" translatable="false">
+        <item>Manually update</item>
+        <item>Auto refresh</item>
+    </string-array>
+    <string-array name="date_picker_month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="date_picker_year">
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+    </string-array>
+</resources>
